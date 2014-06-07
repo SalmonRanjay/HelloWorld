@@ -1,0 +1,143 @@
+body{
+	height:100%;
+	border-style: solid;
+	border-width: 5px;
+	border-top-color: black;
+	border-left-color: yellow;
+	border-right-color: green;
+	border-bottom-color: black;
+
+}
+
+h1{
+	-webkit-animation-direction:alternate;
+	color:yellow;
+	position: relative;
+	
+}
+#heading{
+	background-color: black;
+	border-style: solid;
+	border-width: 5px;
+	text-color: yellow;
+	border-top-color: green;
+	border-bottom-color:yellow;
+	border left-color: yellow;
+	border-right-color: yellow;
+	margin-bottom: 2px;
+
+
+}
+
+#container
+{
+	width:100%;
+	width: 100%;
+
+}
+
+#menu_container{
+	clear: both;
+	border-style: solid;
+	border-color: #D5635F;
+	border-left-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-top-color: black;
+}
+	
+#left_column{
+	float:left;
+	height: 500px;
+	width: 200px;
+	border-style: solid;
+	border-width: 4px;
+	/*background-color:#5799DA; */
+	border-top-color: yellow;
+	border-left-color: black;
+	border-right-color: green;
+	border-bottom-color: black;
+}
+
+#right_column{
+	height: 500px;
+	width : 1036px;
+	float : left;
+
+
+}
+
+#map_container{
+	float: left;
+	border-style: solid;
+	border-width: 3px;
+	border-top-color: yellow;
+	border-left-color: black;
+	border-bottom-color: black;
+	border-right-color: green;
+}
+
+#footer{
+	/*height: 200px;*/
+	margin-top: 5px;
+	background-color:#57DA9D;
+	clear:both;
+	top: 10px;
+}
+
+#menu_bar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.top_navbar{
+	float: left;
+}
+
+.top_navlink{
+	display: block;
+	width: 155px;
+	background-color:#dddddd;
+}
+
+#fotter_text{
+	margin-bottom: 0px;
+}
+
+#side_menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.side_navlink{
+	display: block;
+	height: 62.5px;
+	background-color: #dddddd;
+}
+
+#video_container{
+	float: left;
+	border-style: solid;
+	border-width: 3px;
+	border-top-color: yellow;
+	border-left-color: black;
+	border-bottom-color: black;
+	border-right-color: green;
+	height: 500px;
+	width: 336px;
+}
+#right_container{
+	float: left;
+	border-style: solid;
+	border-width: 3px;
+	border-top-color: yellow;
+	border-left-color: black;
+	border-bottom-color:black;
+	border-right-color: green;
+
+}
+
+

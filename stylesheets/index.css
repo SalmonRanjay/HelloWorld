@@ -1,0 +1,119 @@
+body{
+	border-style: solid;
+	border-width: 5px;
+	border-top-color: black;
+	border-left-color: yellow;
+	border-bottom-color: black;
+	border-right-color: green;
+}
+#container{
+	width: 100%;
+	height: 800px;
+	/*overflow: hidden;*/
+}
+
+#banner{
+	background-color: black;
+	text-align: center;
+	border-style: solid;
+	border-width: 4px;
+	border-top-color: green;
+	border-left-color: black;
+	border-bottom-color: yellow;
+	border-left-color: yellow;
+	font-color: yellow;
+}
+
+#banner_h1{
+	color: yellow;
+}
+
+#top_menu{
+	clear: both;
+	border-style: solid;
+	border-width: 4px;
+	border-color: black;
+	background-color: #dddddd;
+}
+
+
+#left_container{
+	width: 130px;
+	height: 650px;
+	background-color: #dddddd;
+}
+
+#right_container{
+	width: 1101px;
+	height: 650px;
+	overflow: hidden;
+	/*background-image: url("/images/jamaciaflag.jpg"); */
+}
+
+#footer{
+	clear: both;
+	width: 1231px;
+	height: 24px;
+	background-color: #43EE57;
+}
+
+.contentArea{
+	float: left;
+	border-style: solid;
+	border-width: 3px;
+	border-top-color: yellow;
+	border-left-color: black;
+	border-bottom-color: black;
+	border-right-color: green;
+}
+
+#map_container{
+	background-image: url("/images/jabird.jpg");
+	/*background-width: 364;
+	background-height: 381px; */
+	height: 634px;
+	width: 361px;
+	/*overflow: hidden;*/
+	background-size: contain;
+
+}
+#middle_area{
+	height: 634px;
+	width: 361px;
+}
+
+#right_area{
+	height: 634px;
+	width: 361px;
+	background-image: url("/images/iamjam.jpeg");
+	background-size: 100%;
+}
+
+#top_ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.top_nav{
+	display: inline;
+}
+.top_nav_link{
+	display:inline-block;
+	width: 80px;
+}
+
+#left_ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.left_nav{
+
+}
+
+.left_nav_link{
+	display: block;
+	height: 60px;
+}

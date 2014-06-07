@@ -1,0 +1,18 @@
+application: helloexampletest
+version: 2
+runtime: php
+api_version: 1
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+- url: /scripts
+  static_dir: scripts
+- url: /images
+  static_dir: images
+
+- url: /helloworld.php
+  script: helloworld.php
+- url: /.*
+  script: index.php
+
